@@ -143,8 +143,11 @@ public static class JSFSwipeManager {
 		if( gm.gameState == JSFGameState.GameActive && // game has not ended...
 			(swipeChain.Count >= gm.minSwipeMatch || hasPowerMerge)){ // meet the minimum required length
 
-            if(gm.audioScript.matchSoundFx.Length > 0)
-			    gm.audioScript.matchSoundFx[Random.Range(0,gm.audioScript.matchSoundFx.Length-1)].play();
+            if (gm.audioScript.matchSoundFx.Length > 0)
+            {
+                //for(int x = 0; x < swipeChain.Count; x++)
+                    gm.audioScript.matchSoundFx[Random.Range(0, gm.audioScript.matchSoundFx.Length - 1)].play();
+            }
 
 			gm.playerMadeAMove();
 			if(hasPowerMerge){ // perform powerMerges if there is...
