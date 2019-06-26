@@ -135,8 +135,8 @@ public static class JSFSwipeManager {
 
 	}
 
-	// function to validate the swipe chain
-	public static void validateSwipe(){
+    // function to validate the swipe chain
+    public static void validateSwipe(){
 		bool validateStatus = false;
 		int swipeNum = currentSwipeCount;
 		int comboTracker = 0;
@@ -146,7 +146,9 @@ public static class JSFSwipeManager {
             if (gm.audioScript.matchSoundFx.Length > 0)
             {
                 //for(int x = 0; x < swipeChain.Count; x++)
-                    gm.audioScript.matchSoundFx[Random.Range(0, gm.audioScript.matchSoundFx.Length - 1)].play();
+                //gm.audioScript.matchSoundFx[Random.Range(0, gm.audioScript.matchSoundFx.Length - 1)].play();
+
+                gm.audioScript.PlayMatchSound(swipeChain.Count);
             }
 
 			gm.playerMadeAMove();

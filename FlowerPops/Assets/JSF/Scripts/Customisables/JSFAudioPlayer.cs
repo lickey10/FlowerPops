@@ -102,8 +102,24 @@ public class JSFAudioPlayer : MonoBehaviour {
 	public void toggleFX(){
 		enableSoundFX = !enableSoundFX;
 	}
-	
-	void Awake(){
+
+    public void PlayMatchSound(int numberOfSounds)
+    {
+        StartCoroutine(playMatchSounds(numberOfSounds));
+    }
+
+    IEnumerator playMatchSounds(int numberOfSounds)
+    {
+        for (int x = 0; x < numberOfSounds; x++)
+        {
+            JSFAudioPlayer.customAudio clip = matchSoundFx[Random.Range(0, matchSoundFx.Length - 1)];
+            clip.play();
+
+            yield return new WaitForSeconds(clip.audioClip.length);
+        }
+    }
+
+    void Awake(){
 		if(player == null){ // try and get it manually if player forgot to assign an AudioSource
 			player = GameObject.Find("AudioSource").GetComponent<AudioSource>();
 		}

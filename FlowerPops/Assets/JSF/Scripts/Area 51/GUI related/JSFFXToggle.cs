@@ -29,28 +29,48 @@ public class JSFFXToggle : MonoBehaviour {
 		if(!isScriptBroken){
 			switch(IamA){
 			case JSFsoundButtonType.FX_OFF :
-				FxOn.SetActive(true);
-				FxOff.SetActive(false);
-				ap.enableSoundFX = true; // set the fx on
-				break;
+                TurnFXOn();
+                break;
 			case JSFsoundButtonType.FX_ON :
-				FxOn.SetActive(false);
-				FxOff.SetActive(true);
-				ap.enableSoundFX = false; // set the fx off
-				break;
+                TurnFXOff();
+                break;
 			case JSFsoundButtonType.MUSIC_OFF :
-				MusicOn.SetActive(true);
-				MusicOff.SetActive(false);
-				ap.toggleBGM(); // toggle the bgm on/off (defined in AudioPlayer.cs)
+                TurnBGMusicOn();
 				break;
 			case JSFsoundButtonType.MUSIC_ON :
-				MusicOn.SetActive(false);
-				MusicOff.SetActive(true);
-				ap.toggleBGM(); // toggle the bgm on/off (defined in AudioPlayer.cs)
+                TurnBGMusicOff();
 				break;
 			}
 		}
 	}
+
+    public void TurnFXOn()
+    {
+        FxOn.SetActive(true);
+        FxOff.SetActive(false);
+        ap.enableSoundFX = true; // set the fx on
+    }
+
+    public void TurnFXOff()
+    {
+        FxOn.SetActive(false);
+        FxOff.SetActive(true);
+        ap.enableSoundFX = false; // set the fx off
+    }
+
+    public void TurnBGMusicOn()
+    {
+        MusicOn.SetActive(true);
+        MusicOff.SetActive(false);
+        ap.toggleBGM(); // toggle the bgm on/off (defined in AudioPlayer.cs)
+    }
+
+    public void TurnBGMusicOff()
+    {
+        MusicOn.SetActive(false);
+        MusicOff.SetActive(true);
+        ap.toggleBGM(); // toggle the bgm on/off (defined in AudioPlayer.cs)
+    }
 	
 	void initMe(){
 		// if you renamed game objects, revise the changes below...
