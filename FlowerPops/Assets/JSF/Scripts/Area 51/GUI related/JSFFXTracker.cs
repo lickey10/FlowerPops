@@ -18,14 +18,14 @@ public class JSFFXTracker : MonoBehaviour {
 	JSFFXToggle myMaster;
 	bool isScriptBroken;
 	
-	void OnMouseUpAsButton(){
+	public void OnMouseUpAsButton(){
 		if(!isScriptBroken){
 			myMaster.slaveClick(IamA); // sends the trigger to the FXToggle.cs script
 		}
 	}
 	
 	void Awake(){
-		myMaster = GameObject.Find("Sound Buttons").GetComponent<JSFFXToggle>();
+		myMaster = GameObject.Find("MenuPanel").GetComponent<JSFFXToggle>();
 		
 		if(myMaster == null ){ // notify that the programmer broke something...
 			Debug.Log("You changed the \"Sound Button\" game object! revise the FXTracker script!");

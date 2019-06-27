@@ -48,14 +48,14 @@ public class JSFFXToggle : MonoBehaviour {
     {
         FxOn.SetActive(true);
         FxOff.SetActive(false);
-        ap.enableSoundFX = true; // set the fx on
+        ap.toggleFX(); // set the fx on
     }
 
     public void TurnFXOff()
     {
         FxOn.SetActive(false);
         FxOff.SetActive(true);
-        ap.enableSoundFX = false; // set the fx off
+        ap.toggleFX(); // set the fx off
     }
 
     public void TurnBGMusicOn()
@@ -95,7 +95,10 @@ public class JSFFXToggle : MonoBehaviour {
 	
 	void setDefaultOptions(){
 		if(!isScriptBroken){
-			if(ap.enableSoundFX){  // default fx is on
+            ap.enableSoundFX = bool.Parse(PlayerPrefs.GetString("enableSoundFX", "true"));
+            ap.enableMusic = bool.Parse(PlayerPrefs.GetString("enableMusic", "true"));
+
+            if (ap.enableSoundFX){  // default fx is on
 				FxOn.SetActive(true);
 				FxOff.SetActive(false);
 			} else { // default fx is off

@@ -44,10 +44,10 @@ public class JSFAudioPlayer : MonoBehaviour {
 	public customAudio[] comboLowFx;
 	public customAudio[] comboMidFx;
 	public customAudio[] comboHighFx;
-	
-	// created a custom class to store a bool as a reference,
-	// and to simulate a cooldown function with "x" seconds.
-	[System.Serializable]
+
+    // created a custom class to store a bool as a reference,
+    // and to simulate a cooldown function with "x" seconds.
+    [System.Serializable]
 	public class customAudio{
 		public AudioClip audioClip;
 		bool canPlay = true;
@@ -93,14 +93,20 @@ public class JSFAudioPlayer : MonoBehaviour {
 			bgmPlayer.GetComponent<AudioSource>().Pause(); // pause the music
 			enableMusic = false;
 		} else {
-			bgmPlayer.GetComponent<AudioSource>().Play(); // play
+            bgmPlayer.clip = BackgroundMusic[Random.Range(0, BackgroundMusic.Length)];
+
+            bgmPlayer.GetComponent<AudioSource>().Play(); // play
 			enableMusic = true;
 		}
-	}
+
+        PlayerPrefs.SetString("enableMusic", enableMusic.ToString());
+    }
 	
 	// function to toggle the FX on/off
 	public void toggleFX(){
 		enableSoundFX = !enableSoundFX;
+
+        PlayerPrefs.SetString("enableSoundFX", enableSoundFX.ToString());
 	}
 
     public void PlayMatchSound(int numberOfSounds)
@@ -115,7 +121,8 @@ public class JSFAudioPlayer : MonoBehaviour {
             JSFAudioPlayer.customAudio clip = matchSoundFx[Random.Range(0, matchSoundFx.Length - 1)];
             clip.play();
 
-            yield return new WaitForSeconds(clip.audioClip.length);
+            //yield return new WaitForSeconds(clip.audioClip.length);
+            yield return new WaitForSeconds(.1f);
         }
     }
 
@@ -133,7 +140,7 @@ public class JSFAudioPlayer : MonoBehaviour {
 		if(bgmPlayer == null){
 			Debug.LogError("bgm audio source reference is null. Fix the AudioPlayer script reference !");
 		}
-
-		StartCoroutine(playNextBGM() );
+        
+        StartCoroutine(playNextBGM() );
 	}
 }

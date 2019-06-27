@@ -1,6 +1,6 @@
 WebGL
 PlayerPath?
-D:/utilities/Programming/Unity/Projects/trunk/FlowerPop/FlowerPop/_Builds/WebGL
+D:/utilities/Programming/Unity/Repos/FlowerPops/FlowerPops/_Builds/WebGL
 SceneListBegin?
 Assets/Scenes/Alabama - Portrait.unity
 SceneListEnd?
@@ -165,7 +165,7 @@ a4596c288a4fa361a1e6eb9bf59ed5bb Assembly-CSharp.dll:.JSFPortalA
 94017dcc9f00fe671ea7dc427b4da011 Unity.TextMeshPro.dll:TMPro.TMP_SpriteAsset
 e453c0a5eb9e48c36400eaed31fb32e8 Assembly-CSharp.dll:.UISlicedSprite
 a62645f9e9f84bbbde38b2da3e36a0f8 Assembly-CSharp.dll:.TweenPosition
-228a675c05b3bbf5e4ca68d47cc27e2d Assembly-CSharp.dll:.JSFAudioPlayer
+0c06f6716f3bd8b6d0383e1f9d551cdf Assembly-CSharp.dll:.JSFAudioPlayer
 c54e5d238d05f0415928866fafbf602e Assembly-CSharp.dll:.LoadLevelOnClick
 0077fc8e4fbae67f80e80ebd534de5a0 Vuforia.UnityExtensions.dll:Vuforia.AnchorBehaviour
 f8b139fcde9fda6214245df246415cc7 Vuforia.UnityExtensions.dll:Vuforia.AnchorInputListenerBehaviour
