@@ -576,3 +576,5 @@ D:\utilities\Programming\Unity\Repos\FlowerPops\FlowerPops\obj\Debug\Assembly-CS
 D:\utilities\Programming\Unity\Repos\FlowerPops\FlowerPops\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 D:\utilities\Programming\Unity\Repos\FlowerPops\FlowerPops\obj\Debug\Assembly-CSharp.dll
 D:\utilities\Programming\Unity\Repos\FlowerPops\FlowerPops\obj\Debug\Assembly-CSharp.pdb
+D:\utilities\Programming\Unity\Repos\FlowerPops\FlowerPops\Temp\bin\Debug\Mono.Data.SqliteClient.dll
+D:\utilities\Programming\Unity\Repos\FlowerPops\FlowerPops\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb

@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 
 /// <summary> ##################################
 /// 
@@ -115,7 +116,9 @@ public class JSFGameManager : MonoBehaviour {
 	public GameObject pieceManager;
 	[Tooltip("The reference for the PanelManager Object.")]
 	public GameObject panelManager;
-	[HideInInspector] public JSFPieceDefinition[] pieceTypes;
+    [Tooltip("The reference for the PanelManager Object.")]
+    public GameObject pieceDescriptionPanel;
+    [HideInInspector] public JSFPieceDefinition[] pieceTypes;
 	[HideInInspector] public JSFPanelDefinition[] panelTypes;
 	
 	public JSFBoard[,] board; // the board array
@@ -395,14 +398,33 @@ public class JSFGameManager : MonoBehaviour {
 		}
 	}
 
-	#endregion Misc Functions
+    public void DisplayPieceDescription(JSFGamePiece gp)
+    {
+        if(pieceDescriptionPanel)
+        {
+            //GamePiece gamePieceScript = gp.thisPiece.GetComponent<GamePiece>();
 
-	#region Routine Checks Related
-	// ##################################################
-	// Routine checks and it's related functions
-	// ##################################################
-	
-	// status update on given intervals
+            //set name
+            //pieceDescriptionPanel.GetComponents<TMPro.TextMeshProUGUI>()[0].text = gamePieceScript.Title;
+
+            //set description text
+            //pieceDescriptionPanel.GetComponents<TMPro.TextMeshProUGUI>()[1].text = gamePieceScript.Description;
+
+            //set gameobject
+            GameObject.Instantiate(gp.thisPiece, pieceDescriptionPanel.GetComponents<GameObject>().Where(x => x.name == "Placeholder").FirstOrDefault().transform.position, Quaternion.identity);
+
+            pieceDescriptionPanel.SetActive(true);
+        }
+    }
+
+    #endregion Misc Functions
+
+    #region Routine Checks Related
+    // ##################################################
+    // Routine checks and it's related functions
+    // ##################################################
+
+    // status update on given intervals
     IEnumerator updater () {
 		while (gameState != JSFGameState.GameOver){  // loop again (infinite) until game over
 			if(JSFSwipeManager.isSwiping && !Input.GetMouseButton(0)){
