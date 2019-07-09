@@ -288,3 +288,5 @@ D:\utilities\Programming\Unity\Repos\FlowerPops\FlowerPops\obj\Debug\Assembly-CS
 D:\utilities\Programming\Unity\Repos\FlowerPops\FlowerPops\obj\Debug\Assembly-CSharp-firstpass.csproj.CopyComplete
 D:\utilities\Programming\Unity\Repos\FlowerPops\FlowerPops\obj\Debug\Assembly-CSharp-firstpass.dll
 D:\utilities\Programming\Unity\Repos\FlowerPops\FlowerPops\obj\Debug\Assembly-CSharp-firstpass.pdb
+D:\utilities\Programming\Unity\Repos\FlowerPops\FlowerPops\Temp\bin\Debug\Newtonsoft.Json.dll
+D:\utilities\Programming\Unity\Repos\FlowerPops\FlowerPops\Temp\bin\Debug\Newtonsoft.Json.xml

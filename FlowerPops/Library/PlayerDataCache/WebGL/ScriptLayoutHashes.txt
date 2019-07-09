@@ -346,7 +346,7 @@ fb6a1ea36b4f6ef5948d283d93760765 UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 914a4ea75ef00cb6543d20c55c7a476e Assembly-CSharp.dll:.LookAtTarget
 e458e2ac3bfdcefd38d5088b122a7d30 Assembly-CSharp.dll:DreamStarGen.Algorithms.Crazy
 ce98d500cd4d0b05935b1789767fd8c4 Assembly-CSharp.dll:.UIAtlas
-92037482b8d854c734e8a32144870bcf Assembly-CSharp.dll:.JSFGameManager
+894c19d19e49aed991ff2bf724d6bad2 Assembly-CSharp.dll:.JSFGameManager
 2638f4c9734558d6715f232e828f5305 Assembly-CSharp.dll:.JSFBoardLayout
 a99b59d27d911423ed976291aea0f77f Assembly-CSharp.dll:.UIButtonRotation
 f92afe6bd182b229a0ed673eb842a919 Assembly-CSharp.dll:DreamStarGen.DreamStarGenerator_Mixer

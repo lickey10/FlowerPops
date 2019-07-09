@@ -30,8 +30,9 @@ public abstract class JSFPieceDefinition : MonoBehaviour {
 	public GameObject[] skinSquare; // how the piece will look like for square mode
 	public GameObject[] skinHex; // how the piece will look like for hex mode
 	[HideInInspector] public JSFGameManager gm {get{return JSFUtils.gm;}} // easy reference call
-    private WaitForSeconds doubleClickTreashHold = new WaitForSeconds(1f);
+    private WaitForSeconds doubleClickTreashHold = new WaitForSeconds(.5f);
     private int clickCount = 0;
+    private JSFGamePiece currentlyClickedGP = null;
 
     public GameObject[] skin{get { // skin variable for game engine to call
 			switch(skinListToUse){
@@ -266,7 +267,14 @@ public abstract class JSFPieceDefinition : MonoBehaviour {
 
     private void OnPointerClick(JSFGamePiece gp)
     {
-        clickCount++;
+        if (currentlyClickedGP == gp)
+            clickCount++;
+        else
+        {
+            clickCount = 1;
+
+            currentlyClickedGP = gp;
+        }
 
         if (clickCount == 2)//double click
         {
@@ -275,6 +283,7 @@ public abstract class JSFPieceDefinition : MonoBehaviour {
             gm.DisplayPieceDescription(gp);
 
             clickCount = 0;
+            currentlyClickedGP = null;
         }
         else
         {
