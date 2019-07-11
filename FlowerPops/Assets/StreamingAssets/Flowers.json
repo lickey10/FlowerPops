@@ -1,0 +1,92 @@
+﻿[
+    {
+        ""Description"": ""The spring-blooming red buckeye (Aesculus pavia) is a small understory tree found commonly throughout forests in the southeastern United States. The striking red flower stalk and palmate leaves clearly identify the species."",
+        ""ID"": 1,
+        ""IsStateFlower"": 0,
+        ""Name"": ""Red Buckeye"",
+        ""PrefabPrefix"": ""RedBuckeye"",
+        ""SourceOfData"": ""http://www.encyclopediaofalabama.org"",
+        ""State"": ""Alabama""
+    },
+    {
+        ""Description"": ""Known commonly as the rosebud orchid or spreading pogonia, Cleistes bifaria is a beautiful and uncommon orchid species found in many of the southern bogs on the Coastal Plain in Alabama."",
+        ""ID"": 2,
+        ""IsStateFlower"": 0,
+        ""Name"": ""Rosebud Orchid"",
+        ""PrefabPrefix"": ""RosebudOrchid"",
+        ""SourceOfData"": ""http://www.encyclopediaofalabama.org"",
+        ""State"": ""Alabama""
+    },
+    {
+        ""Description"": ""The prickly pear cactus (Opuntia humifusa) is a low-growing perennial shrub that bears flattened pads and segmented branches. The numerous yellowish blooms appear in May and June and are followed by purple, edible pods."",
+        ""ID"": 3,
+        ""IsStateFlower"": 0,
+        ""Name"": ""Prickly Pear Cactus"",
+        ""PrefabPrefix"": ""PricklyPearCactus"",
+        ""SourceOfData"": ""http://www.encyclopediaofalabama.org"",
+        ""State"": ""Alabama""
+    },
+    {
+        ""Description"": ""The Carolina lily (Lilium michauxii) is found in rich woods primarily in the Valley and Ridge Province and Piedmont Plateau of Alabama. An uncommon species, the lily bears large and attractive nodding blooms from July to August."",
+        ""ID"": 4,
+        ""IsStateFlower"": 0,
+        ""Name"": ""Carolina Lily"",
+        ""PrefabPrefix"": ""CarolinaLily"",
+        ""SourceOfData"": ""http://www.encyclopediaofalabama.org"",
+        ""State"": ""Alabama""
+    },
+    {
+        ""Description"": ""The sensitive briar (Mimosa microphylla), a low-growing perennial, earned its common name because its leaflets fold up at the slightest touch. The spiny plant grows in open areas throughout the state, and its pink flower clusters appear from May through September."",
+        ""ID"": 5,
+        ""IsStateFlower"": 0,
+        ""Name"": ""Sensitive Briar"",
+        ""PrefabPrefix"": ""SensitiveBriar"",
+        ""SourceOfData"": ""http://www.encyclopediaofalabama.org"",
+        ""State"": ""Alabama""
+    },
+    {
+        ""Description"": ""The Spurred Butterfly Pea (Centrosema virginianum) is a trailing perennial vine with alternate leaves of three leaflets. A member of the legume family, it bears violet flowers in spring and summer. Each flower lasts only one day."",
+        ""ID"": 6,
+        ""IsStateFlower"": 0,
+        ""Name"": ""Spurred Butterfly Pea"",
+        ""PrefabPrefix"": ""SpurredButterflyPea"",
+        ""SourceOfData"": ""http://www.encyclopediaofalabama.org"",
+        ""State"": ""Alabama""
+    },
+    {
+        ""Description"": ""Butterfly weed (Asclepias tuberosa) is a summer-blooming member of the milkweed family that grows in dry meadows or open woods. Its bright orange flowers are attractive to butterflies, hence its common name."",
+        ""ID"": 7,
+        ""IsStateFlower"": 0,
+        ""Name"": ""Butterfly Weed"",
+        ""PrefabPrefix"": ""ButterflyWeed"",
+        ""SourceOfData"": ""http://www.encyclopediaofalabama.org"",
+        ""State"": ""Alabama""
+    },
+    {
+        ""Description"": ""The threatened Cahaba lily, named for the Cahaba River, is a member of the amaryllis family that lives in fast-moving rivers and streams. The plant's showy flowers attract a number of pollinators as well as large numbers of canoers and kayakers during the spring blooming period."",
+        ""ID"": 8,
+        ""IsStateFlower"": 0,
+        ""Name"": ""Cahaba Lily"",
+        ""PrefabPrefix"": ""CahabaLilly"",
+        ""SourceOfData"": ""http://www.encyclopediaofalabama.org"",
+        ""State"": ""Alabama""
+    },
+    {
+        ""Description"": ""Ivy Leaf Morning Glory is an introduced herbaceous trailing or twining annual vine in the Morning Glory family (Convolvulaceae). It is native to tropical America. Ivy Leaf Morning Glory occurs throughout Alabama. It occurs in fields, on roadsides, on river banks, and in disturbed woodlands. It is an annual with a tap root. The stems are up to 8 feet in length and climb by twining or trail over the ground. The stems are green or purple in color, and pubescent with long reflexed white hairs. The leaves are alternate, petiolate, cordate or 3-lobed in outline, and pubescent. The petiole is pubescent with long white hairs. Flowers are produced solitary or in 2-3 flowered cymes from the leaf axils. The peduncle is shorter than the petiole of the subtending leaf and is pubescent with reflexed hairs. The calyx has 5 linear-lanceolate lobes that are longer than the tube and curl outwards at their tips. The calyx tube is densely pubescent with long white hairs. The corolla is campanulate, sky blue in color with a white throat. The flowers open at night and close in the morning. The fruit is a capsule with 3-5 black, wedge shaped seed. Ivy Leaf Morning Glory is sometimes cultivated. It can be easily grown from seed. The plant is considered a pest in row crops, and is listed as an invasive species in Florida and Kentucky.--A. Diamond"",
+        ""ID"": 9,
+        ""IsStateFlower"": 0,
+        ""Name"": ""Ivy Leaf Morning Glory"",
+        ""PrefabPrefix"": ""IvyleafMorningGlory"",
+        ""SourceOfData"": ""http://floraofalabama.org"",
+        ""State"": ""Alabama""
+    },
+    {
+        ""Description"": ""Japanese Camellia is an introduced evergreen shrub in the Tea family (Theaceae). It is the state flower of Alabama. Japanese Camellia is widely cultivated, especially in south Alabama. It persists around old home sites, and escapes infrequently from dispersed seed. Japanese Camellia is one of three species of Camellia commonly cultivated in Alabama and the most popular species seen in cultivation. There are over 2,000 named cultivars of Japanese Camellia, and more are developed each year. Flower color ranges from red through pink to white and variegated. Wild plants have five to seven petals and a large mass of stamens in the center of the flower. In many cultivated forms the stamens have modified into additional petals. The fruit is a capsule with one to five large brown seed. Squirrels and Blue Jays often consume the seed, and are responsible for dispersing them. Seedlings often revert to the “wild” form with few petals. Christmas or Yuletide Camellia (Camellia sasanqua Thunb.) is the second most common species in Alabama. It has smaller leaves and flowers than Japanese Camellia and usually flowers earlier in the year. Camellia reticulata Lindl. Is similar to Japanese Camellia but usually has larger flowers and larger, thicker leaves."",
+        ""ID"": 10,
+        ""IsStateFlower"": 1,
+        ""Name"": ""Snow Camellia"",
+        ""PrefabPrefix"": ""Special_StateFlower_Bomb"",
+        ""SourceOfData"": ""http://floraofalabama.org"",
+        ""State"": ""Alabama""
+    }
+]
