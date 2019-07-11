@@ -45,7 +45,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 548}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -111,10 +111,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 679, y: 498}
+  m_MinSize: {x: 681, y: 498}
   m_MaxSize: {x: 14002, y: 14048}
   vertical: 0
-  controlID: 84
+  controlID: 10
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -136,10 +136,10 @@ MonoBehaviour:
     y: 0
     width: 1428
     height: 947
-  m_MinSize: {x: 404, y: 498}
+  m_MinSize: {x: 406, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 85
+  controlID: 11
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -161,10 +161,10 @@ MonoBehaviour:
     y: 0
     width: 1428
     height: 651
-  m_MinSize: {x: 404, y: 224}
-  m_MaxSize: {x: 8004, y: 4024}
+  m_MinSize: {x: 406, y: 224}
+  m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 86
+  controlID: 12
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -439,9 +439,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 8c9affffaa9affffe49cffffd4fbffff
+      m_SelectedIDs: a2350000
+      m_LastClickedID: 13730
+      m_ExpandedIDs: bcfbffff743500008e350000a2350000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -582,20 +582,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/JSF/Scripts/Area 51/Game Manager related
+    - Assets/JSF/Prefabs/panels
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/JSF/Scripts/Area 51/Game Manager related
+  - Assets/JSF/Prefabs/panels
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\utilities\Programming\Unity\Repos\FlowerPops\FlowerPops
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 541}
-    m_SelectedIDs: b8160000
-    m_LastClickedID: 5816
-    m_ExpandedIDs: 000000005e0e0000ac0e0000000f0000bc1300005e1400002c1500007e15000082160000c2160000c6170000ea1700008e180000c43f0000c63f0000c83f0000ca3f0000cc3f000000ca9a3b
+    scrollPos: {x: 0, y: 495}
+    m_SelectedIDs: dc2f0000
+    m_LastClickedID: 12252
+    m_ExpandedIDs: 000000000e2800005c280000b02800006c2d00000e2e0000dc2e00002e2f00003230000072300000763100009a3100003e3200005437000056370000583700005a3700005c37000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -623,7 +623,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000005e0e0000ac0e0000000f0000bc1300005e1400002c1500007e15000082160000c2160000c6170000ea1700008e180000c43f0000c63f0000c83f0000ca3f0000cc3f0000
+    m_ExpandedIDs: 000000000e2800005c280000b02800006c2d00000e2e0000dc2e00002e2f00003230000072300000763100009a3100003e3200005437000056370000583700005a3700005c370000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -650,7 +650,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 5033f3ff6000000070b00000c4000000240200007e040000f6040000f6010000f81b000012220000602200002a660000903d0000b6390000ea330000346a0000ac6a0000ca6a0000706a0000b66a00007a6a0000986a0000526a0000923700005c7900009a37000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
