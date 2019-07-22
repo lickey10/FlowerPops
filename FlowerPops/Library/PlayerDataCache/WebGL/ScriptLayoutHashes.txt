@@ -165,7 +165,7 @@ a4596c288a4fa361a1e6eb9bf59ed5bb Assembly-CSharp.dll:.JSFPortalA
 94017dcc9f00fe671ea7dc427b4da011 Unity.TextMeshPro.dll:TMPro.TMP_SpriteAsset
 e453c0a5eb9e48c36400eaed31fb32e8 Assembly-CSharp.dll:.UISlicedSprite
 a62645f9e9f84bbbde38b2da3e36a0f8 Assembly-CSharp.dll:.TweenPosition
-0c06f6716f3bd8b6d0383e1f9d551cdf Assembly-CSharp.dll:.JSFAudioPlayer
+ef5bbaf9139be7fd7e4a965d18d7c3f0 Assembly-CSharp.dll:.JSFAudioPlayer
 c54e5d238d05f0415928866fafbf602e Assembly-CSharp.dll:.LoadLevelOnClick
 eea5432127e1c2d004b5b21205ff5a02 Assembly-CSharp.dll:.DragDropSurface
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.UISoundVolume

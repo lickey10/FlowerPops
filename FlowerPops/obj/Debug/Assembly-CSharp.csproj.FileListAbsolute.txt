@@ -483,7 +483,6 @@ D:\utilities\Programming\Unity\Repos\FlowerPops\FlowerPops\Temp\bin\Debug\UnityE
 D:\utilities\Programming\Unity\Repos\FlowerPops\FlowerPops\Temp\bin\Debug\UnityEngine.WebGLModule.dll
 D:\utilities\Programming\Unity\Repos\FlowerPops\FlowerPops\Temp\bin\Debug\UnityEngine.WindModule.dll
 D:\utilities\Programming\Unity\Repos\FlowerPops\FlowerPops\Temp\bin\Debug\UnityEngine.XRModule.dll
-D:\utilities\Programming\Unity\Repos\FlowerPops\FlowerPops\Temp\bin\Debug\Vuforia.UnityExtensions.dll
 D:\utilities\Programming\Unity\Repos\FlowerPops\FlowerPops\Temp\bin\Debug\UnityEngine.ClusterInputModule.dll
 D:\utilities\Programming\Unity\Repos\FlowerPops\FlowerPops\Temp\bin\Debug\UnityEngine.ClusterRendererModule.dll
 D:\utilities\Programming\Unity\Repos\FlowerPops\FlowerPops\Temp\bin\Debug\Unity.Cecil.dll
@@ -566,7 +565,6 @@ D:\utilities\Programming\Unity\Repos\FlowerPops\FlowerPops\Temp\bin\Debug\UnityE
 D:\utilities\Programming\Unity\Repos\FlowerPops\FlowerPops\Temp\bin\Debug\nunit.framework.xml
 D:\utilities\Programming\Unity\Repos\FlowerPops\FlowerPops\Temp\bin\Debug\UnityEngine.Timeline.xml
 D:\utilities\Programming\Unity\Repos\FlowerPops\FlowerPops\Temp\bin\Debug\UnityEngine.Networking.xml
-D:\utilities\Programming\Unity\Repos\FlowerPops\FlowerPops\Temp\bin\Debug\Vuforia.UnityExtensions.xml
 D:\utilities\Programming\Unity\Repos\FlowerPops\FlowerPops\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.xml
 D:\utilities\Programming\Unity\Repos\FlowerPops\FlowerPops\Temp\bin\Debug\UnityEngine.SpatialTracking.xml
 D:\utilities\Programming\Unity\Repos\FlowerPops\FlowerPops\Temp\bin\Debug\UnityEngine.ClusterInputModule.xml
