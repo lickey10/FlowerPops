@@ -60,6 +60,7 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
-FlowerPops/Temp/UnityLockfile
-FlowerPops/Temp/__Backupscenes/0.backup
-FlowerPops/Temp/**
+**/Temp/**
+**/Library/**
+**/obj/**
+**/logs/**
